@@ -12,8 +12,8 @@ function App() {
     <div className=''>
       <div>
         <Routes>
-          <Route path="/risk_link" element={<Navigate replace to="/home" />} />
-          <Route path="/home" element={<HomeScreen />} />
+          <Route path="/risk_link" element={<Navigate replace to="/risk_link/home" />} />
+          <Route path="/risk_link/home" element={<HomeScreen />} />
         </Routes>
       </div>
     </div>
