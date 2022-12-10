@@ -54,11 +54,10 @@ class HomeScreen extends Component {
                     </div>
                 </div>
             </div>
-            <div
+            {/* <div
                 className='how_it_work_bg'
             >
                 <div className="row " style={{ margin: "5em" }}>
-                    {/* <div className='col-md-1 col-sm-none '></div> */}
                     <div className="col-md-6 d-none d-md-block  p-sm-2 ">
                         <br />
                         <ForInvestor />
@@ -80,7 +79,7 @@ class HomeScreen extends Component {
                         <ForInvestor />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div
                 className='how_it_work_bg'
             >

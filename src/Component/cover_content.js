@@ -27,13 +27,13 @@ class CoverContent extends Component {
             <br />
             <br />
             <div className="row">
-                <div className="col-6">
+                {/* <div className="col-6">
                     <a
                         href="#for_investor"
                     >
                         <button type="button" className="button-1">Investor</button>
                     </a>
-                </div>
+                </div> */}
                 <div className="col-6 text-right" style={{ alignItems: "right" }}>
                     <a
                         href="#for_protocol"
