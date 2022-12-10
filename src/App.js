@@ -12,7 +12,7 @@ function App() {
     <div className=''>
       <div>
         <Routes>
-          <Route path="/" element={<Navigate replace to="/home" />} />
+          <Route path="/risk_link" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<HomeScreen />} />
         </Routes>
       </div>
